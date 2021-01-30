@@ -32,5 +32,5 @@ function solution(arr) {
 COMMENT:
 - reduce로 체크해도 될것 같고, filter로 비교해도 충분 할 것으로 보임
   - return arr.filter((value, index) => { return value !== arr[index+1]; })
-  - 하지만 이 코드는 index + 1에서 마지막에 도달할 경우 undefined 가 나올텐데, 조금 문제가 될 가능성을 두는게 아닐까 생각됨
+  - 하지만 이 방식은 index + 1에서 마지막에 도달할 경우 undefined 가 나올텐데, 조금 문제가 될 가능성을 두는게 아닐까 생각됨
 */
