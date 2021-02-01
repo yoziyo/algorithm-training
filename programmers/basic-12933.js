@@ -21,15 +21,15 @@ function solution(n) {
 }
 
 function solution2(n) {
-  const returnArray = [];
-  console.log(n);
-  do {
-    n = n % 10;
-    console.log(n);
-  } while (n > 0);
+  // const returnArray = [];
+  // console.log(n);
+  // do {
+  //   n = n % 10;
+  //   console.log(n);
+  // } while (n > 0);
 }
 
-console.log(solution2(118372));
+// console.log(solution2(118372));
 
 /**
  * COMMENT:
